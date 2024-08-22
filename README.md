@@ -8,25 +8,19 @@ If you're new to Blackjack or need a refresher on the rules, you can find detail
 Installation
 To install and play the game, follow these steps:
 
-**Clone the repository:**
-```
-bash
-Copy code
-git clone [repository_url]
-```
-Navigate to the game directory:
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/AmarMuric04/Blackjack
+    ```
 
-```
-bash
-Copy code
-cd blackjack_game
-```
-Run the Python script:
+2. **Navigate to the game directory:**
+    ```bash
+    cd Blackjack
+    ```
 
-```
-bash
-Copy code
-python blackjack.py
-```
+3. **Run the Python script:**
+    ```bash
+    python blackjack.py
+    ```
 Enjoy the Game!
 Have fun and good luck at the tables!
