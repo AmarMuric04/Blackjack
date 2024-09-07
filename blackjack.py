@@ -47,7 +47,7 @@ def blackjack(deck):
             time.sleep(0.5)
             print(f"The mystery card was {list(dealers_hand)[1]}")
             if hand_value(dealers_hand) == 21:
-                print("Dealer hit a blackjack!")
+                print("\nDealer hit a blackjack!")
                 game_over = True
             elif hand_value(dealers_hand) < 17 or (
                 game_type == "h17"
@@ -114,3 +114,5 @@ if start:
         deck = get_deck()
         blackjack(deck)
         play = input("Want to play another match? (y/n): ") == "y"
+
+# TODO add a betting system,
